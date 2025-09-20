@@ -1,0 +1,4 @@
+file,accuracy
+customer_churn_sample.csv,0.5
+customer_churn_test.csv,1.0
+customer_data.csv,1.0
