@@ -1,0 +1,6 @@
+customerID,gender,SeniorCitizen,Partner,Dependents,tenure,PhoneService,MultipleLines,InternetService,OnlineSecurity,OnlineBackup,DeviceProtection,TechSupport,StreamingTV,StreamingMovies,Contract,PaperlessBilling,PaymentMethod,MonthlyCharges,TotalCharges,Churn
+1001-TESTA,Female,1,No,No,5,Yes,No,DSL,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,45.00,225.00,No
+1002-TESTB,Male,0,Yes,Yes,24,Yes,Yes,Fiber optic,Yes,Yes,Yes,Yes,Yes,Yes,Two year,No,Credit card (automatic),99.99,2399.76,No
+1003-TESTC,Female,1,No,Yes,12,No,No,DSL,No,No,No,No,No,No,Month-to-month,Yes,Mailed check,29.99,359.88,Yes
+1004-TESTD,Male,0,Yes,No,36,Yes,No,Fiber optic,No,No,No,No,No,No,One year,No,Bank transfer (automatic),79.99,2879.64,No
+1005-TESTE,Female,1,Yes,Yes,60,Yes,Yes,Fiber optic,Yes,Yes,Yes,Yes,Yes,Yes,Two year,No,Credit card (automatic),120.00,7200.00,Yes
