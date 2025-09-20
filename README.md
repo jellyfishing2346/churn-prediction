@@ -75,3 +75,62 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 ## ✨ Credits
 - Built by [jellyfishing2346](https://github.com/jellyfishing2346)
 - Powered by Python, scikit-learn, and SHAP
+
+---
+
+## 🏷️ GitHub Topics
+
+Add these topics/tags to your repository for discoverability:
+
+`churn-prediction`, `machine-learning`, `explainable-ai`, `shap`, `scikit-learn`, `batch-processing`, `data-science`, `python`, `automation`, `transparency`, `reproducibility`
+
+---
+
+## 🚧 Potential Improvements
+- Add more algorithms (e.g., XGBoost, LightGBM, Logistic Regression)
+- Hyperparameter tuning (GridSearchCV, RandomizedSearchCV)
+- Cross-validation for robust evaluation
+- More feature engineering and handling of missing values
+- Additional EDA and visualization
+- Unit tests and GitHub Actions CI
+- Example Jupyter notebooks
+- API documentation (if deployed)
+- Simple web UI (Streamlit, Gradio)
+
+---
+
+## 🌐 Deployment Guide
+
+### Deploy as a FastAPI REST API
+
+1. **Install dependencies:**
+   ```sh
+   pip install -r requirements.txt
+   ```
+2. **Run locally:**
+   ```sh
+   uvicorn main:app --reload
+   ```
+   The API will be available at `http://127.0.0.1:8000`.
+
+3. **Build and run with Docker:**
+   ```sh
+   docker build -t churn-api .
+   docker run -p 80:80 churn-api
+   ```
+
+4. **Test the API:**
+   - Go to `http://127.0.0.1:8000/docs` for interactive Swagger UI.
+   - Example request:
+     ```json
+     POST /predict
+     {
+       "MonthlySpend": 80,
+       "TotalPurchaseFrequency": 30,
+       "Tenure": 12,
+       "CustomerType": "VIP"
+     }
+     ```
+
+5. **Cloud deployment:**
+   - Deploy the Docker image to Azure App Service, AWS ECS, GCP Cloud Run, or Heroku for production use.
